@@ -36,7 +36,6 @@ const App = () => {
             />
 
             <div>
-              <button type="submit">Create</button>
               <button
                 className="button-cancel"
                 onClick={() => {
@@ -46,6 +45,8 @@ const App = () => {
               >
                 Cancel
               </button>
+
+              <button type="submit">Create</button>
             </div>
           </form>
         </div>
@@ -55,9 +56,11 @@ const App = () => {
         return <TimerCard title={title} key={idx} removeTimer={removeTimer} />;
       })}
 
-      <button className="button-add-timer" onClick={() => setIsClicked(true)}>
-        +
-      </button>
+      <div className="button-container">
+        <button className="button-add-timer" onClick={() => setIsClicked(true)}>
+          +
+        </button>
+      </div>
     </div>
   );
 };

@@ -18,10 +18,16 @@ body {
   margin-top: 50px;
 }
 
+.button-container {
+  min-width: 290px;
+  display: flex;
+  justify-content: center;
+}
+
 .button-add-timer {
   margin-top: 30px;
   width: 50px;
-  height: 45px;
+  height: 50px;
   background-color: #f3f3f3ab;
   border: 0.5px solid #ccc;
   border-radius: 5px;
