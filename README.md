@@ -1,6 +1,6 @@
 # Timer
 
-Web app that lets you set multpile timers
+Web app that lets you set multiple timers
 
 <img src="./public/timers.png" width="200px" />
 
